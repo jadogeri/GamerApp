@@ -1,4 +1,4 @@
-my-cross-platform-app/
+app/
 ├── server/
 │   ├── src/
 │   │   ├── api/             # API routes and controllers (e.g., Express.js routes)
