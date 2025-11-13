@@ -1,0 +1,29 @@
+{
+  "name": "game-app-server",
+  "version": "1.0.0",
+  "description": "Express app serving as backend to GameApp application.",
+  "keywords": [
+    "GamerApp",
+    "Express",
+    "Node",
+    "Typescript",
+    "Backend",
+    "Services",
+    "Controllers"
+  ],
+  "homepage": "https://github.com/jadogeri/GamerApp#readme",
+  "bugs": {
+    "url": "https://github.com/jadogeri/GamerApp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jadogeri/GamerApp.git"
+  },
+  "license": "MIT",
+  "author": "Joseph Adogeri",
+  "type": "commonjs",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
