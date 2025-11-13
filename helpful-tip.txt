@@ -1,0 +1,36 @@
+my-cross-platform-app/
+├── server/
+│   ├── src/
+│   │   ├── api/             # API routes and controllers (e.g., Express.js routes)
+│   │   ├── services/        # Business logic and data manipulation
+│   │   ├── models/          # Database models (e.g., Mongoose schemas)
+│   │   ├── utils/           # Utility functions
+│   │   └── app.js           # Main server entry point
+│   ├── config/              # Server configurations (e.g., database credentials)
+│   └── package.json
+├── client/
+│   ├── shared/              # Reusable UI components, styles, and utilities
+│   │   ├── components/
+│   │   ├── styles/
+│   │   └── utils/
+│   ├── web/                 # Web-specific frontend code
+│   │   ├── public/          # Static assets (HTML, CSS, images)
+│   │   ├── src/
+│   │   │   ├── pages/
+│   │   │   ├── app.js       # Web app entry point
+│   │   │   └── index.html
+│   │   └── package.json
+│   ├── desktop/             # Desktop-specific frontend code (e.g., Electron)
+│   │   ├── src/
+│   │   │   ├── main.js      # Electron main process
+│   │   │   ├── renderer.js  # Electron renderer process
+│   │   │   └── index.html
+│   │   └── package.json
+│   └── mobile/              # Mobile-specific frontend code (e.g., React Native)
+│       ├── src/
+│       │   ├── components/
+│       │   ├── screens/
+│       │   └── App.js       # Mobile app entry point
+│       └── package.json
+├── package.json             # Root package.json for monorepo management (optional)
+├── README.md
