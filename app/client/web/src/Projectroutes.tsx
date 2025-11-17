@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes} from "react-router-dom";
-
+import {Login, Home, NoPage} from "./pages/index"
 
 //https://dev.to/jemmycodes/creating-an-image-slider-with-the-usestate-hook-3c8i
 
@@ -7,11 +7,11 @@ import { BrowserRouter, Route, Routes} from "react-router-dom";
 const ProjectRoutes = () => {
 
   return (
-	<BrowserRouter basename="/W3School_Templates_JS" 
-	>
+	<BrowserRouter >
 		<Routes >				
 			<Route path="/" element={<Home/>} index /> 
 			<Route path="*" element={<NoPage />} />
+			<Route path="/login" element={<Login />} />
 		</Routes>
 	</BrowserRouter>
   )
